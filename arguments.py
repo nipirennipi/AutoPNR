@@ -14,7 +14,7 @@ def get_args():
     parser.add_argument(
         '--data_path',
         type=str, 
-        default='/data/lyjiang/Box/MIND-large/data', 
+        default='./data/MIND-large', 
         help='Path of data set.',
     )
 
